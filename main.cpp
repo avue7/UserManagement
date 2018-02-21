@@ -6,7 +6,7 @@ int main()
   int num = 0;
   int size = 2;
   vector<User> users(size);
- 
+
   do
   {
     cout<<"Enter new username or q to quit: ";
@@ -20,7 +20,7 @@ int main()
       cout<<"\nEnter password: ";
       cin>>pass;
       num++;
-      users.push_back(User(user, pass, num));    
+      users.push_back(User(user, pass, num));
     }
   }while( user != "q" && user != "Q" );
   cout<<endl<<"Users created: "<<users.size()-1<<endl;
