@@ -1,5 +1,6 @@
 #include "user.h"
 
+// FIXES #1
 int main()
 {
   string user, pass;
