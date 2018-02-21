@@ -1,8 +1,10 @@
+
 #include "user.h"
+
 
 int main()
 {
-  string user, pass;
+  std::string user, pass;
   int num = 0;
   int size = 2;
   vector<User> users(size);
@@ -24,5 +26,6 @@ int main()
     }
   }while( user != "q" && user != "Q" );
   cout<<endl<<"Users created: "<<users.size()-1<<endl;
+
   return 0;
 }
